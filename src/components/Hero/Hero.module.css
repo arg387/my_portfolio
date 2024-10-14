@@ -40,6 +40,8 @@
 }
 
 .contactBtn {
+  display: inline-block;
+  margin: 20px;
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);

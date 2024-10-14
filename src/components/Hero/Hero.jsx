@@ -11,9 +11,13 @@ export const Hero = () => {
         <p className={styles.description}>
         I am a recent graduate with a Bachelor’s degree in Computer Science and engineering. I am eager to apply academic knowledge and develop practical skills in creating innovative and intelligent user experiences. Reach out if you&apos;d like to learn more!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div>
+          <a href="mailto:sahaargha345@gmail.com" className={styles.contactBtn}>
+            Contact Me
+          </a><a href={getImageUrl("hero/Argha_CV.pdf")} download className={styles.contactBtn}>CV</a>
+        </div>
+        
+
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}

@@ -1,0 +1,27 @@
+[
+
+  {
+    "title": "Personality test app",
+    "imageSrc": "projects/project1.png",
+    "description": "This is a project made to test your personality by asking questions about your favorite things..",
+    "skills": ["React", "CSS"],
+    "demo": "https://arg387.github.io/react-quiz-project/",
+    "source": "https://github.com/arg387/react-quiz-project"
+  },
+  {
+    "title": "The lost Relic Game",
+    "imageSrc": "projects/project2.png",
+    "description": "This is a choice based terminal game made in python. It is a text based adventure game.",
+    "skills": ["Python"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/arg387/PY-game1"
+  },
+  {
+    "title": "VsCode-customization",
+    "imageSrc": "projects/project3.png",
+    "description": "This is a project on the customization of VSCode code editor and give it a new look.",
+    "skills": ["Json", "CSS"],
+    "demo": "https://private-user-images.githubusercontent.com/84933329/361129988-a21fcf39-02eb-470e-bc53-66eff975fea4.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjg5MjM3NDgsIm5iZiI6MTcyODkyMzQ0OCwicGF0aCI6Ii84NDkzMzMyOS8zNjExMjk5ODgtYTIxZmNmMzktMDJlYi00NzBlLWJjNTMtNjZlZmY5NzVmZWE0LmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDE0VDE2MzA0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRhMTNjNWM2MzRmOWMxYTU3ZGEyMDg0NTFhZTExNjk4YzM1NjBiODI0YTc3NGYzMjg3Zjg3MTVjNzRmMjM5MjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8CpDwnfpKL5t_m3PCUgL_7N-Gm2lapOqlyoc_XdHTUo",
+    "source": "https://github.com/arg387/vscode-json"
+  }
+]

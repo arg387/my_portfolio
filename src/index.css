@@ -7,4 +7,5 @@
 
 html {
   scroll-behavior: smooth;
+  transition:  background 250ms ease-in-out;
 }

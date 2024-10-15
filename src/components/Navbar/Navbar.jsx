@@ -1,13 +1,16 @@
 
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import { useTheme } from "../../common/ThemeContext";
 import { useState } from "react";
+import { Link } from 'react-scroll';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const {theme, toggleTheme} = useTheme();
+
+
+
 
   return (
     <nav className={styles.navbar}>
@@ -35,18 +38,15 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
-        > 
+        <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}onClick={() => setMenuOpen(false)}> 
           <li>
-            <a href="#experience">Expertise</a>
+            <Link to="experience" smooth={true} duration={3000}>Expertise</Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <Link to="projects" smooth={true} duration={3000}>Projects</Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="contact" smooth={true} duration={3000}>Contact</Link>
           </li>
         </ul>
       </div>

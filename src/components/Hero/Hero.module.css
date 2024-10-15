@@ -20,6 +20,7 @@
 }
 
 .title {
+  
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 33px;
@@ -29,13 +30,12 @@
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
 .description {
   font-size: 30px;
-  font-family: var(--font-roboto);
+  font-family: var(--font-mono);
   margin-bottom: 52px;
 }
 
@@ -55,7 +55,6 @@
 .heroImg {
   width: 50%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;

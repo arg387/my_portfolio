@@ -37,6 +37,27 @@
   color: var(--color-text);
   text-decoration: none;
 }
+.navbarContainer{
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.themeChangerContainer{
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.colorMode{
+  width: 35px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  
+}
+.colorMode:hover{
+  cursor: pointer;
+}
 
 @media screen and (max-width: 830px) {
   .navbar {
@@ -78,5 +99,20 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .themeChangerContainer {
+    margin-top: 10px;
+  }
+  .colorModeContainer{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+  .colorMode{
+    width: 25px;  
+  }
+  .colorMode:hover{
+    cursor: pointer;
   }
 }

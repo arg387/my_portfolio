@@ -3,7 +3,7 @@
   {
     "title": "Personality test app",
     "imageSrc": "projects/project1.png",
-    "description": "This is a project made to test your personality by asking questions about your favorite things..",
+    "description": "This is a project made to test your personality by asking questions about your favorites..",
     "skills": ["React", "CSS"],
     "demo": "https://arg387.github.io/react-quiz-project/",
     "source": "https://github.com/arg387/react-quiz-project"
@@ -11,7 +11,7 @@
   {
     "title": "The lost Relic Game",
     "imageSrc": "projects/project2.png",
-    "description": "This is a choice based terminal game made in python. It is a text based adventure game.",
+    "description": "This is a choice based terminal game made in python.",
     "skills": ["Python"],
     "demo": "https://www.example.com",
     "source": "https://github.com/arg387/PY-game1"

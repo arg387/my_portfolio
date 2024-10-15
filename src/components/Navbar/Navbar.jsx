@@ -1,16 +1,29 @@
-import React, { useState } from "react";
+
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { useTheme } from "../../common/ThemeContext";
+import { useState } from "react";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const {theme, toggleTheme} = useTheme();
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <div className={styles.navbarContainer}>
+        <a className={styles.title} href="/">
         Portfolio
-      </a>
+        </a>
+        <div className={styles.themeChangerContainer}>
+          <img
+            src={getImageUrl(`hero/${theme === "light" ? "sun" : "moon"}.png`)}
+            alt="image of color mode"
+            className={styles.colorMode}
+            onClick={toggleTheme}
+          />
+        </div>
+      </div>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -27,7 +40,7 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         > 
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Expertise</a>
           </li>
           <li>
             <a href="#projects">Projects</a>

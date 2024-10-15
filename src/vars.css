@@ -1,12 +1,26 @@
 :root {
   /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  --color-text:#000000;
+  --color-primary: #7889c9;
+  --color-secondary: #28b6bb;
+  --color-dark: #3b4f6b;
+  --color-bg: #fafafa;
+  --color-gradient-bg: linear-gradient(180deg, #c6c6c9 0%, #bd99b4 100%);
 
   /* Fonts */
   --font-roboto: "Roboto";
+  --font-mono:'Roboto Mono', monospace;
+}
+[data-theme="dark"] {
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #6a8ac6;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+  --color-gradient-bg: linear-gradient(180deg, #08090c 0%, #625881 100%);
+    /* Fonts */
+  --font-roboto: "Roboto";
+  --font-mono:'Roboto Mono', monospace;
+
 }
 
